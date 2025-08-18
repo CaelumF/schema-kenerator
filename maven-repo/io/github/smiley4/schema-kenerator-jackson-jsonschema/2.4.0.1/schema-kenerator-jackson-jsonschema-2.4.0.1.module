@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.smiley4",
+    "module": "schema-kenerator-jackson-jsonschema",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-jsonschema-2.4.0.1.jar",
+          "url": "schema-kenerator-jackson-jsonschema-2.4.0.1.jar",
+          "size": 5684,
+          "sha512": "80671a97f572e4b8f4fdc7a208329f9eb1ff614d80b799c0eec23eaaa81052552f6ba510cf0bad761fb803152711d09a2a97928d5ec197942daa09dfe7228303",
+          "sha256": "da0fedbdf925f3c80351aa6d02a09aa083057b5fe4f433fc0838bd3432b9d03c",
+          "sha1": "69f00a2bde28eb9f019ae0a7b53ac9c6da35d8c1",
+          "md5": "2a25f563407c940a3057527a764d1d34"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-core",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-jackson",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-jsonschema",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-jsonschema-2.4.0.1.jar",
+          "url": "schema-kenerator-jackson-jsonschema-2.4.0.1.jar",
+          "size": 5684,
+          "sha512": "80671a97f572e4b8f4fdc7a208329f9eb1ff614d80b799c0eec23eaaa81052552f6ba510cf0bad761fb803152711d09a2a97928d5ec197942daa09dfe7228303",
+          "sha256": "da0fedbdf925f3c80351aa6d02a09aa083057b5fe4f433fc0838bd3432b9d03c",
+          "sha1": "69f00a2bde28eb9f019ae0a7b53ac9c6da35d8c1",
+          "md5": "2a25f563407c940a3057527a764d1d34"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-jsonschema-2.4.0.1-sources.jar",
+          "url": "schema-kenerator-jackson-jsonschema-2.4.0.1-sources.jar",
+          "size": 2341,
+          "sha512": "c6cd6f45c1f5c5cf4a7f36b03e492bef1e94b3d6bf8d9d5177bac652983ace0b2f37da44de4f5bd5cffd2e9befe3382db5a85422418d3233374fd9c73f3ee8a8",
+          "sha256": "8e4ca15197ed4287e35b5d9a2f338f272fd87c170946b9c44a11cf7747af3935",
+          "sha1": "b9c6c22df3944c0b464afa78162258705cb53f98",
+          "md5": "439f805ae204bb30a34f8c6776d15f32"
+        }
+      ]
+    }
+  ]
+}

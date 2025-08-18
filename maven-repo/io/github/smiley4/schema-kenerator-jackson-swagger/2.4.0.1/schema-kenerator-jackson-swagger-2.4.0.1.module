@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.smiley4",
+    "module": "schema-kenerator-jackson-swagger",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-jackson-swagger-2.4.0.1.jar",
+          "size": 5613,
+          "sha512": "3740528996bcd7bb6c04d672c0296d35886665104252b31b92e8dd23576ccd891a65af32edbaafb88b9f6038bd6786c9ec549bf901024d23dc9d15d9aeb5c9d6",
+          "sha256": "dfff9985d018bf8b4987a5aaca54104575b853916facf5b03bea1d7b6b18bda0",
+          "sha1": "29b77229198eab4029292bc4201b1635d6edd160",
+          "md5": "5e62d0cbf7c6ff4df8cb6fdf887ea5a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-core",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-jackson",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-swagger",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-jackson-swagger-2.4.0.1.jar",
+          "size": 5613,
+          "sha512": "3740528996bcd7bb6c04d672c0296d35886665104252b31b92e8dd23576ccd891a65af32edbaafb88b9f6038bd6786c9ec549bf901024d23dc9d15d9aeb5c9d6",
+          "sha256": "dfff9985d018bf8b4987a5aaca54104575b853916facf5b03bea1d7b6b18bda0",
+          "sha1": "29b77229198eab4029292bc4201b1635d6edd160",
+          "md5": "5e62d0cbf7c6ff4df8cb6fdf887ea5a5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "schema-kenerator-jackson-swagger-2.4.0.1-sources.jar",
+          "url": "schema-kenerator-jackson-swagger-2.4.0.1-sources.jar",
+          "size": 2291,
+          "sha512": "83abae3fb533af0ad0ec1d14897a34ce4e89c3256ba45e667a4960a58517a2331d1b7be6a1914949f7f4de4ae711b373f6a4b95376abc3ed614670f8a417bd47",
+          "sha256": "ddb2e52dde2c3be53ec0559bbde0bb60ea67abf9d600619bd7a3065a35d06a81",
+          "sha1": "4003eab567acec207c02a114a2c215b4495df934",
+          "md5": "5b7dfbcb6d02dd33c52a27646ff9113d"
+        }
+      ]
+    }
+  ]
+}

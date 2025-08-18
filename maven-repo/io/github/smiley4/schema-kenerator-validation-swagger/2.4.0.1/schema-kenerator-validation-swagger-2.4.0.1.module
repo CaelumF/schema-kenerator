@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.smiley4",
+    "module": "schema-kenerator-validation-swagger",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "2.0.1.Final"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-validation-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-validation-swagger-2.4.0.1.jar",
+          "size": 11802,
+          "sha512": "90e9ff82cb767b91c0a32075b35b6f6c3e9e5a3179a7fda444ca2ab6e62f4ec06059ad0b118379754f9d0e6ca84978a6209d8649be63d9a4e8cf05e66517abb1",
+          "sha256": "aa349a64bb87102abe05e6fbab61d9524a6a945a5e45f4d78f9fca35dfce917c",
+          "sha1": "e1a61c88e6cfc0a311cff9338e12c9bbad49439e",
+          "md5": "a76d240ab396281864d9c1366a8dbeaf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-core",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-swagger",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "javax.validation",
+          "module": "validation-api",
+          "version": {
+            "requires": "2.0.1.Final"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-validation-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-validation-swagger-2.4.0.1.jar",
+          "size": 11802,
+          "sha512": "90e9ff82cb767b91c0a32075b35b6f6c3e9e5a3179a7fda444ca2ab6e62f4ec06059ad0b118379754f9d0e6ca84978a6209d8649be63d9a4e8cf05e66517abb1",
+          "sha256": "aa349a64bb87102abe05e6fbab61d9524a6a945a5e45f4d78f9fca35dfce917c",
+          "sha1": "e1a61c88e6cfc0a311cff9338e12c9bbad49439e",
+          "md5": "a76d240ab396281864d9c1366a8dbeaf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "schema-kenerator-validation-swagger-2.4.0.1-sources.jar",
+          "url": "schema-kenerator-validation-swagger-2.4.0.1-sources.jar",
+          "size": 3989,
+          "sha512": "60ba88735dd53693300c77bc0409fbc3c8d3c2c3461afdcb6b2cdce740b2019c035501981c56ce279ac7dbd5c824fffcd142c338817045ff5df7aa3639242fbc",
+          "sha256": "4ec3a06beeb352bb92ce55a40064318392c05efefabaeb371dbb36107c8c0e4e",
+          "sha1": "32e196036d29422e2b9d36d6a1253ced096eab54",
+          "md5": "a956416e878ce275aecc40e9acbfd034"
+        }
+      ]
+    }
+  ]
+}

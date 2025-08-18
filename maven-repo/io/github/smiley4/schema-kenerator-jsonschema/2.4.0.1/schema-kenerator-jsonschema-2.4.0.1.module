@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.smiley4",
+    "module": "schema-kenerator-jsonschema",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jsonschema-2.4.0.1.jar",
+          "url": "schema-kenerator-jsonschema-2.4.0.1.jar",
+          "size": 123886,
+          "sha512": "3733a4bb53b7bcaf353515b809c78035e464a4a3a198810fdde86ec4348f93fbdbd60781e9d5852b84c3851573a7b92dace2d74b6239458d9a0dc1b49d860cef",
+          "sha256": "0b164e750c4f60743af88bf509ae6440a4dd71c4760294bcee6e72c0f1e9fd3a",
+          "sha1": "aae1dfb7b5ee7fbb1f8d1f9fc1a0a2573a90ff3c",
+          "md5": "2f6367db33e1ba34e7a13f5962fedb5b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-core",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-jsonschema-2.4.0.1.jar",
+          "url": "schema-kenerator-jsonschema-2.4.0.1.jar",
+          "size": 123886,
+          "sha512": "3733a4bb53b7bcaf353515b809c78035e464a4a3a198810fdde86ec4348f93fbdbd60781e9d5852b84c3851573a7b92dace2d74b6239458d9a0dc1b49d860cef",
+          "sha256": "0b164e750c4f60743af88bf509ae6440a4dd71c4760294bcee6e72c0f1e9fd3a",
+          "sha1": "aae1dfb7b5ee7fbb1f8d1f9fc1a0a2573a90ff3c",
+          "md5": "2f6367db33e1ba34e7a13f5962fedb5b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "schema-kenerator-jsonschema-2.4.0.1-sources.jar",
+          "url": "schema-kenerator-jsonschema-2.4.0.1-sources.jar",
+          "size": 28583,
+          "sha512": "5fe0205d1a3edb1a04d7f6ad28362e5711b28db3ecdd1ce50fdd470437600a819ff72f11d05bdc0ad750d661a321aa4f170feccc51f155b1a0d8a4ff3ecd21f2",
+          "sha256": "65dcecbaf66bfc55cf7efbf5255da0207e34bb1fa02b26fc6285213e11fd80b7",
+          "sha1": "0729cf5b6f4b83483fb49e750b7823e44d28f2a2",
+          "md5": "dd7f2ec1a51c645c09ef2be8ba721d4b"
+        }
+      ]
+    }
+  ]
+}

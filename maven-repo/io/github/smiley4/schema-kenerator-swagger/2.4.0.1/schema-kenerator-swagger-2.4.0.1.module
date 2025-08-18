@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.smiley4",
+    "module": "schema-kenerator-swagger",
+    "version": "2.4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.swagger.parser.v3",
+          "module": "swagger-parser",
+          "version": {
+            "requires": "2.1.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.13"
+          },
+          "reason": "Version 1.11 has a known vulnerability (pulled in via 'io.swagger.parser.v3:swagger-parser')."
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-swagger-2.4.0.1.jar",
+          "size": 120547,
+          "sha512": "d63b36c7b883e3b28b3f1825a81c80aa1531f6d3bfffb97a0ba0bb61a9919b59210bddea6b479a6638b5790b8f4be57c0733b819bf74edb14e55993d3d21d082",
+          "sha256": "2f2e683e033bfb747615f77adec55721c9373c6f432b07d8912679adf059967b",
+          "sha1": "c42fbcc776af33fbfa3281639b9eef15198a87cc",
+          "md5": "92a1d10812268aba0852230b2f17446d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.smiley4",
+          "module": "schema-kenerator-core",
+          "version": {
+            "requires": "2.4.0.1"
+          }
+        },
+        {
+          "group": "io.swagger.parser.v3",
+          "module": "swagger-parser",
+          "version": {
+            "requires": "2.1.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.13"
+          },
+          "reason": "Version 1.11 has a known vulnerability (pulled in via 'io.swagger.parser.v3:swagger-parser')."
+        }
+      ],
+      "files": [
+        {
+          "name": "schema-kenerator-swagger-2.4.0.1.jar",
+          "url": "schema-kenerator-swagger-2.4.0.1.jar",
+          "size": 120547,
+          "sha512": "d63b36c7b883e3b28b3f1825a81c80aa1531f6d3bfffb97a0ba0bb61a9919b59210bddea6b479a6638b5790b8f4be57c0733b819bf74edb14e55993d3d21d082",
+          "sha256": "2f2e683e033bfb747615f77adec55721c9373c6f432b07d8912679adf059967b",
+          "sha1": "c42fbcc776af33fbfa3281639b9eef15198a87cc",
+          "md5": "92a1d10812268aba0852230b2f17446d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "schema-kenerator-swagger-2.4.0.1-sources.jar",
+          "url": "schema-kenerator-swagger-2.4.0.1-sources.jar",
+          "size": 31185,
+          "sha512": "75c3e8b011bbdc9f1d3bc06f04e23e45368b638c4ec3650e45711d17714a422c61da37b831a5b3c840d232594b6cb8eb6898a02b4022286c96cadd6178706d5a",
+          "sha256": "60404a60953c89f2ad1d34fa03147fd613c1cc3d0e1f1019fe24f47a21a3e1de",
+          "sha1": "71fc7988963c55c86602edd78a1b33ae73a99fc2",
+          "md5": "c891ca8524920fb95a6eb919dffea95b"
+        }
+      ]
+    }
+  ]
+}
