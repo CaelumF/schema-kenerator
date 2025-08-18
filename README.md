@@ -1,4 +1,27 @@
 # Schema Kenerator
+# (temporary try it out fork for new branch work))
+
+To use this:
+
+1. Add the repo
+```kotlin
+repositories {
+//  ...
+    maven("https://github.com/CaelumF/koog/raw/develop/maven-repo")
+}
+  ```
+
+Use a version that hopefully does not conflict with one available on another repo.
+
+I have been adding an extra section for this purpose.
+
+```kotlin
+dependencies {
+  implementation("io.github.smiley4:schema-kenerator-core:2.4.0.1")
+  // ... Other modules. See https://central.sonatype.com/search?q=schema-kenerator
+  // Or check out the maven-repo directory
+}
+```
 
 [![Version](https://img.shields.io/maven-central/v/io.github.smiley4/schema-kenerator-core?style=flat&color=blue&logo=apachemaven)](https://central.sonatype.com/search?q=github.smiley4.schema-kenerator-*)
 [![Checks Passing](https://img.shields.io/github/actions/workflow/status/SMILEY4/schema-kenerator/checks.yml?style=flat&logo=github)](https://github.com/SMILEY4/schema-kenerator/actions/workflows/checks.yml)
@@ -40,8 +63,7 @@ Examples showcasing and explaining the functionalities and use cases of this pro
 
 
 ## Installation
-
-See [modules](https://smiley4.github.io/schema-kenerator/latest/modules/) wiki page for installation instructions.
+(See above for the temporary fork)
 
 
 ## Example
