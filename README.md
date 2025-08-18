@@ -7,7 +7,7 @@ To use this:
 ```kotlin
 repositories {
 //  ...
-    maven("https://github.com/CaelumF/koog/raw/develop/maven-repo")
+    maven("https://github.com/CaelumF/schema-kenerator/raw/develop/maven-repo")
 }
   ```
 
